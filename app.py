@@ -6,9 +6,9 @@ To start the api, cd in the directory of containing this file and run in a termi
 
 To query the API, open another terminal anywhere and run
 
-    `curl "localhost:5000/racine?x=<X>"
+    `curl "localhost:5000/racine?x=X"
 
-Where you replace <X> by the real number you need the square root of.
+Where you replace X by the real number you need the square root of.
 """
 
 from flask import Flask, jsonify, request
